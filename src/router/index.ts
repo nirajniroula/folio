@@ -7,23 +7,23 @@ import Contact from '../views/Contact.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/folio/',
     name: 'Home',
     component: Home,
   },
   {
-    path: '/about',
+    path: '/folio/about',
     name: 'About',
     component: About,
     // beforeEnter: protectedRoute,
   },
   {
-    path: '/projects',
+    path: '/folio/projects',
     name: 'Projects',
     component: Projects,
   },
   {
-    path: '/contact',
+    path: '/folio/contact',
     name: 'Contact',
     component: Contact,
   },
