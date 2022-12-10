@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <!-- <v-app-bar app class="white"> -->
       <TopNavBar />
-    </v-app-bar>
+    <!-- </v-app-bar> -->
 
     <!-- Sizes your content based upon application components -->
     <v-main class="main-container">

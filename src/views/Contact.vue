@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <div class="text-h7 text-white">CONTACT</div>
+    <div class="text-h7 text-white">niniroula@gmail.com</div>
   </div>
 </template>
 

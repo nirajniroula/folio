@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <v-card v-scroll.self="onScroll" class="overflow-y-auto" max-height="64vh">
+    <v-card class="overflow-y-auto" max-height="64vh">
       <div class="d-block text-h8 text-white">
         In the JavaScript code block above, you can see the three new methods
         which are triggered by our transition hooks. The beforeLeave() method

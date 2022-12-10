@@ -1,77 +1,75 @@
 <template>
-  <v-layout>
-    <v-app-bar class="mt-2">
-      <v-app-bar-title>Namaste</v-app-bar-title>
+  <v-app-bar class="mt-2 red">
+    <v-app-bar-title>Namaste</v-app-bar-title>
 
-      <v-spacer></v-spacer>
-      <router-link
-        v-slot="{ isActive, isExactActive }"
-        to="/my-vue-app/"
-        class="menu-wrapper"
-        ><button
-          :class="[
-            'glow-on-hover',
-            isActive && 'router-link-active',
-            isExactActive && 'router-link-exact-active',
-          ]"
-          text
-        >
-          Home
-        </button></router-link
+    <v-spacer></v-spacer>
+    <router-link
+      v-slot="{ isActive, isExactActive }"
+      to="/"
+      class="menu-wrapper"
+      ><button
+        :class="[
+          'glow-on-hover',
+          isActive && 'router-link-active',
+          isExactActive && 'router-link-exact-active',
+        ]"
+        text
       >
+        Home
+      </button></router-link
+    >
 
-      <router-link
-        v-slot="{ isActive, isExactActive }"
-        to="/my-vue-app/about"
-        class="menu-wrapper"
+    <router-link
+      v-slot="{ isActive, isExactActive }"
+      to="/about"
+      class="menu-wrapper"
+    >
+      <button
+        :class="[
+          'glow-on-hover',
+          isActive && 'router-link-active',
+          isExactActive && 'router-link-exact-active',
+        ]"
+        text
       >
-        <button
-          :class="[
-            'glow-on-hover',
-            isActive && 'router-link-active',
-            isExactActive && 'router-link-exact-active',
-          ]"
-          text
-        >
-          About
-        </button>
-      </router-link>
+        About
+      </button>
+    </router-link>
 
-      <router-link
-        v-slot="{ isActive, isExactActive }"
-        to="/my-vue-app/projects"
-        class="menu-wrapper"
+    <router-link
+      v-slot="{ isActive, isExactActive }"
+      to="/projects"
+      class="menu-wrapper"
+    >
+      <button
+        :class="[
+          'glow-on-hover',
+          isActive && 'router-link-active',
+          isExactActive && 'router-link-exact-active',
+        ]"
+        text
       >
-        <button
-          :class="[
-            'glow-on-hover',
-            isActive && 'router-link-active',
-            isExactActive && 'router-link-exact-active',
-          ]"
-          text
-        >
-          Projects
-        </button>
-      </router-link>
-      <v-divider inset vertical></v-divider>
+        Projects
+      </button>
+    </router-link>
+    <v-divider inset vertical></v-divider>
 
-      <router-link
-        v-slot="{ isActive, isExactActive }"
-        to="/my-vue-app/contact"
-        class="menu-wrapper"
-        ><button
-          :class="[
-            'glow-on-hover',
-            isActive && 'router-link-active',
-            isExactActive && 'router-link-exact-active',
-          ]"
-          text
-        >
-          Contact
-        </button></router-link
+    <router-link
+      v-slot="{ isActive, isExactActive }"
+      to="/contact"
+      class="menu-wrapper"
+      ><button
+        :class="[
+          'glow-on-hover',
+          isActive && 'router-link-active',
+          isExactActive && 'router-link-exact-active',
+        ]"
+        text
       >
-    </v-app-bar>
-  </v-layout>
+        Contact
+      </button></router-link
+    >
+  </v-app-bar>
 </template>
 
 <style scoped lang="scss">
