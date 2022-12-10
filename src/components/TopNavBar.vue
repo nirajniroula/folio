@@ -5,7 +5,7 @@
     <v-spacer></v-spacer>
     <router-link
       v-slot="{ isActive, isExactActive }"
-      to="/"
+      to="/folio/"
       class="menu-wrapper"
       ><button
         :class="[
@@ -21,7 +21,7 @@
 
     <router-link
       v-slot="{ isActive, isExactActive }"
-      to="/about"
+      to="/folio/about"
       class="menu-wrapper"
     >
       <button
@@ -38,7 +38,7 @@
 
     <router-link
       v-slot="{ isActive, isExactActive }"
-      to="/projects"
+      to="/folio/projects"
       class="menu-wrapper"
     >
       <button
@@ -56,7 +56,7 @@
 
     <router-link
       v-slot="{ isActive, isExactActive }"
-      to="/contact"
+      to="/folio/contact"
       class="menu-wrapper"
       ><button
         :class="[
