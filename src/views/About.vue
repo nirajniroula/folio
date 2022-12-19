@@ -2,24 +2,17 @@
   <div class="main-container">
     <v-card class="overflow-y-auto" max-height="64vh">
       <div class="d-block text-h8 text-white">
-        In the JavaScript code block above, you can see the three new methods
-        which are triggered by our transition hooks. The beforeLeave() method
-        gets the element of the current page as its only parameter; we can use
-        this to get the height of the current page and save it for later usage.
-        Next, we can see the enter() method, which is responsible for actually
-        triggering the transition of the height of the new page, to which we
-        transition. First, we get the final height of the new page and save it
-        in a height variable. Next, we set the height of the new page to the
-        height of the current page; this is our starting point for the
-        transition. And finally, we set the height of the new page to its
-        original height back again. We do this inside a setTimeout() function to
-        make sure the browser has triggered a paint after setting the height of
-        the new page to the height of the current page. Otherwise, we’d see no
-        transition effect. After the entrance transition of the new page has
-        finished, the afterEnter() method is triggered. Next, we set the height
-        of the page back to auto to make sure its height is dynamic again. We do
-        this in case new content is rendered or the size of the browser window
-        changes.
+        Maker of this web app and a few other web as well as mobile applications
+        - some from scratch and some as an assist, some independently and some
+        as a team. Learning and playing around with app development tools is one
+        of my hobby and apparantely a full time hobby :) <br />
+        Beside it, I do have(or may be "did 'have") a few others, namely; poem
+        as well as free writing, playing guitar and ofcourse designing, of which
+        I don't think there will be anything in this site. Honestly, I've not
+        thought about the content of this site seriosly yet. This is what I had
+        in my mind right now (at the time of writing) and thus it is. But I'm
+        thinking of updating it on a regular basis.<br />
+        Thank you for your time.
       </div>
     </v-card>
   </div>
