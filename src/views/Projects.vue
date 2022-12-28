@@ -1,7 +1,6 @@
 <template>
   <div class="main-container">
     <p class="text-h6 text-white">COMING SOON</p>
-    <p class="text-h7 text-white">Nothing significant though !</p>
   </div>
 </template>
 
