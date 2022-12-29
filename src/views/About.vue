@@ -12,7 +12,7 @@
         thought about the content of this site yet. This is what I had
         in my mind right now (at the time of writing) and thus it is. 
         It's all for now but I'm thinking of updating it on a regular basis.<br />
-        Thank you for your time and please make it a great day today.<br />
+        Keep smiling.<br />
         See you again ✨✨✨
       </div>
     </v-card>
