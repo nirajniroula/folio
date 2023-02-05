@@ -10,8 +10,9 @@
         as well as free writing, playing guitar and ofcourse designing, of which
         I don't think there will be anything in this site. Honestly, I've not
         thought about the content of this site yet. This is what I had
-        in my mind right now (at the time of writing) and thus it is. 
+        in my mind right now (at the time of writing) and here it is. 
         It's all for now but I'm thinking of updating it on a regular basis.<br />
+        <br />
         Keep smiling.<br />
         See you again ✨✨✨
       </div>
