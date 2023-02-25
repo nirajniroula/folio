@@ -49,7 +49,7 @@
           :key="item.title"
           v-slot="{ isActive, isExactActive }"
           :to="item.route"
-          class="menu-wrapper my-2"
+          class="menu-wrapper ma-2"
           ><button
             :class="[
               'w-100',

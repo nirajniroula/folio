@@ -11,7 +11,9 @@
       thought about the content of this site seriosly yet. This is what I had in
       my mind right now(at the time of writing) and thus it is. But I'm thinking
       of updating it on a regular basis.<br />
-      Thank you for your time.
+      Thank you for your time.<br />
+      Keep smiling ✨✨✨ <br />
+      See you again.
     </div>
   </div>
 </template>
