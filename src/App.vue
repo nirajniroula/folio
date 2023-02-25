@@ -1,18 +1,16 @@
 <template>
-  <v-app>
+  <v-app class="main-container">
     <TopNavBar />
 
     <!-- Sizes your content based upon application components -->
-    <v-main class="main-container">
+    <v-main class="">
       <!-- Provides the application the proper gutter -->
-      <v-container fluid class="container">
-        <!-- If using vue-router -->
-        <router-view v-slot="{ Component }">
-          <transition name="slide-fade" mode="out-in">
-            <component :is="Component" :key="$route.path" />
-          </transition>
-        </router-view>
-      </v-container>
+      <!-- If using vue-router -->
+      <router-view v-slot="{ Component }">
+        <transition name="slide-fade" mode="out-in">
+          <component :is="Component" :key="$route.path" />
+        </transition>
+      </router-view>
     </v-main>
 
     <v-footer app>
@@ -29,10 +27,10 @@
 <style scoped lang="scss">
   .main-container {
     background: black;
+    height: 100vh;
   }
   .container {
     background: black;
-    height: 64vh;
   }
   .slide-fade-enter-active {
     transition: all 0.3s ease-out;

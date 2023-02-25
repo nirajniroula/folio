@@ -1,80 +1,109 @@
 <template>
-  <v-app-bar class="mt-2 red">
+  <v-app-bar class="px-4 px-md-8">
     <v-app-bar-title>Namaste</v-app-bar-title>
 
     <v-spacer></v-spacer>
-    <router-link
-      v-slot="{ isActive, isExactActive }"
-      to="/folio/"
-      class="menu-wrapper"
-      ><button
-        :class="[
-          'glow-on-hover',
-          isActive && 'router-link-active',
-          isExactActive && 'router-link-exact-active',
-        ]"
-        text
-      >
-        Home
-      </button></router-link
-    >
+    <div class="d-none d-md-block">
+      <div class="d-flex flex-row">
+        <router-link
+          v-for="item in menu"
+          :key="item.title"
+          v-slot="{ isActive, isExactActive }"
+          :to="item.route"
+          class="menu-wrapper mx-2"
+          ><button
+            :class="[
+              'w-100',
+              'glow-on-hover',
+              isActive && 'router-link-active',
+              isExactActive && 'router-link-exact-active',
+            ]"
+            text
+            w-100
+          >
+            {{ item.title }}
+          </button></router-link
+        >
+      </div>
+    </div>
 
-    <router-link
-      v-slot="{ isActive, isExactActive }"
-      to="/folio/about"
-      class="menu-wrapper"
-    >
-      <button
-        :class="[
-          'glow-on-hover',
-          isActive && 'router-link-active',
-          isExactActive && 'router-link-exact-active',
-        ]"
-        text
-      >
-        About
-      </button>
-    </router-link>
-
-    <router-link
-      v-slot="{ isActive, isExactActive }"
-      to="/folio/projects"
-      class="menu-wrapper"
-    >
-      <button
-        :class="[
-          'glow-on-hover',
-          isActive && 'router-link-active',
-          isExactActive && 'router-link-exact-active',
-        ]"
-        text
-      >
-        Projects
-      </button>
-    </router-link>
-    <v-divider inset vertical></v-divider>
-
-    <router-link
-      v-slot="{ isActive, isExactActive }"
-      to="/folio/contact"
-      class="menu-wrapper"
-      ><button
-        :class="[
-          'glow-on-hover',
-          isActive && 'router-link-active',
-          isExactActive && 'router-link-exact-active',
-        ]"
-        text
-      >
-        Contact
-      </button></router-link
-    >
+    <div class="d-md-none">
+      <v-btn
+        class="text-white"
+        icon="mdi-menu"
+        variant="text"
+        @click.stop="drawer = !drawer"
+      ></v-btn>
+    </div>
   </v-app-bar>
+  <v-navigation-drawer
+    v-model="drawer"
+    location="right"
+    temporary
+    class="d-md-none nav"
+  >
+    <v-sheet class="h-100 nav">
+      <div class="d-flex flex-column elevation-8">
+        <router-link
+          v-for="item in menu"
+          :key="item.title"
+          v-slot="{ isActive, isExactActive }"
+          :to="item.route"
+          class="menu-wrapper my-2"
+          ><button
+            :class="[
+              'w-100',
+              'glow-on-hover',
+              isActive && 'router-link-active',
+              isExactActive && 'router-link-exact-active',
+            ]"
+            text
+            w-100
+          >
+            {{ item.title }}
+          </button></router-link
+        >
+      </div>
+    </v-sheet>
+  </v-navigation-drawer>
 </template>
 
+<script lang="ts">
+  export default {
+    data: () => ({
+      drawer: false,
+      group: null,
+      menu: [
+        {
+          title: 'Home',
+          route: '/folio/',
+        },
+        {
+          title: 'About',
+          route: '/folio/about',
+        },
+        {
+          title: 'Projects',
+          route: '/folio/projects',
+        },
+        {
+          title: 'Contact',
+          route: '/folio/contact',
+        },
+      ],
+    }),
+
+    watch: {
+      group() {
+        this.drawer = false
+      },
+    },
+  }
+</script>
+
 <style scoped lang="scss">
-  .menu-wrapper {
-    margin-right: 1rem;
+  .nav {
+    border-left: 1px solid rgb(49, 49, 49);
   }
   .router-link-active {
     border: 1px solid #fff;

@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import protectedRoute from '../middlewares/protected'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Projects from '../views/Projects.vue'
