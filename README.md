@@ -46,7 +46,9 @@ You can see a live demo of the template [here](https://nirajniroula.github.io/fo
 If you find this template helpful and want to support my work, you can buy me a cup of coffee here. Your support is greatly appreciated and will motivate me to create more open-source projects like this.
 
 
-<a href="https://www.buymeacoffee.com/niniroula" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/niniroula" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>  
+
+Also, don't forget to star it.
 ## License
 
 This template is licensed under the MIT license. You can use it for personal or commercial projects, modify it, and distribute it as long as you keep the original copyright notice and license terms. See the LICENSE file for more details.
