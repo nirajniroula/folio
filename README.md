@@ -1,12 +1,46 @@
-# A simple portfolio app
+# Basic Portfolio Template
+### Made with Vue 3 + TypeScript + Vite + Vuetify 3
+
+This is a portfolio template project that can help you showcase your skills and projects in an attractive and professional way. The template is designed using Vue.js and is fully responsive, which means it looks great on all devices, including desktops, laptops, tablets, and mobile phones.
 
 
-Made with Vue 3 + TypeScript + Vite + Vuetify 3
+https://user-images.githubusercontent.com/11739133/235581428-29f7a9b2-c484-4fd9-b8f0-35c46fa58792.mov
+#### Thanks [peshanghiwa](https://github.com/peshanghiwa) for the [Vue3-Vite-Vuetify-Typescript](https://github.com/peshanghiwa/Vue3-Vite-Vuetify3-Typescript-Template) template. 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-This boilerplate was taken from [here](https://github.com/peshanghiwa/Vue3-Vite-Vuetify3-Typescript-Template).
+## Features
 
-## Recommended IDE Setup
+    Clean and modern design
+    Fully responsive layout
+    Easy customization with Vue.js components
+    Smooth animations
+    Cross-browser compatible
+    SEO friendly
+    
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+
+
+## How to Use
+
+    Clone or download the repository
+    Open the project directory in your code editor
+    Install the dependencies by running npm install in the terminal
+    Customize the template with your own information, skills, and projects in the src directory
+    Build the project by running npm run build in the terminal
+    Deploy the dist directory on your own domain or hosting service
+
+## Demo
+
+You can see a live demo of the template [here](https://nirajniroula.github.io/folio/).
+## Support
+
+If you find this template helpful and want to support my work, you can buy me a cup of coffee here. Your support is greatly appreciated and will motivate me to create more open-source projects like this.
+
+
+<a href="https://www.buymeacoffee.com/niniroula" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+## License
+
+This template is licensed under the MIT license. You can use it for personal or commercial projects, modify it, and distribute it as long as you keep the original copyright notice and license terms. See the LICENSE file for more details.
+## Contact
+
+If you have any questions or suggestions about this template, feel free to contact me at niniroula@gmail.com.
