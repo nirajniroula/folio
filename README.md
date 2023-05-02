@@ -10,24 +10,33 @@ https://user-images.githubusercontent.com/11739133/235581428-29f7a9b2-c484-4fd9-
 
 ## Features
 
-    Clean and modern design
-    Fully responsive layout
-    Easy customization with Vue.js components
-    Smooth animations
-    Cross-browser compatible
-    SEO friendly
-    
-
+- Clean and modern design
+- Fully responsive layout
+- Easy customization with Vue.js components
+- Smooth animations
+- Cross-browser compatible
 
 
 ## How to Use
 
-    Clone or download the repository
-    Open the project directory in your code editor
-    Install the dependencies by running npm install in the terminal
-    Customize the template with your own information, skills, and projects in the src directory
-    Build the project by running npm run build in the terminal
-    Deploy the dist directory on your own domain or hosting service
+- Clone, download or fork the repository  
+    `git clone https://github.com/nirajniroula/folio.git`
+    
+- Open the project directory  
+    `cd folio`
+    
+- Install the dependencies  
+    `yarn`
+    
+- Customize the template with your own information, skills, and projects in the src directory
+
+- Run the project and preview at `http://localhost:3000/folio/`  
+    `yarn dev`
+    
+- Build the project by running npm run build in the terminal
+    `yarn build`
+    
+- Deploy the dist directory on your own domain or hosting service
 
 ## Demo
 
